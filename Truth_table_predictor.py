@@ -5,7 +5,7 @@ def nonlin(x,deriv=False):
     if(deriv==True):
         return x*(1-x) #this is a derivative of signum function. This need to calculate gradient decent
     return 1/(1+np.exp(-x))# this is a signum function
-#input.. It can be any truth table 
+#input.. It can be any truth table but format will be same
 X = np.array([ 
 	            [0,0,1],
 	            [0,1,0],
